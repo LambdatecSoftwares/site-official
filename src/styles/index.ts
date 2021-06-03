@@ -32,10 +32,16 @@ video {
     letter-spacing: 15px;
   }
 
-
-main {
-  background-color: #fff;
+section {
   height: 100vh;
+}
+
+section:nth-child(odd) {
+  background-color: #fff;
+}
+
+section:nth-child(even) {
+  background-color: #F2F2F2;
 }
 
 

@@ -12,13 +12,12 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 250px;
-    height: 50px;
     color: #BABABA;
     border: 1px solid #BABABA;
     font-size: 20px;
+    padding: 10px;
     background-color: transparent;
-    border-radius: 5px;
+    border-radius: 50%;
     cursor: pointer;
     transition: .3s ease-in-out;
   }

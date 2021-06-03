@@ -5,7 +5,7 @@ import { IoIosArrowDown } from 'react-icons/io'
 const CustomButton = () => {
   return(
       <Container> 
-          <button>Saiba mais <IoIosArrowDown /></button>
+          <button><IoIosArrowDown /></button>
       </Container>
   );
 }

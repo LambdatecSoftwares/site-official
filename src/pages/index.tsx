@@ -26,9 +26,24 @@ export default function Home() {
       <CustomButton />
       </header>
 
-      <main>
+      <section>
         
-      </main>
+      </section>
+
+      
+      <section>
+        
+      </section>
+
+      
+      <section>
+        
+      </section>
+
+      
+      <section>
+        
+      </section>
 
     </Container>
     
