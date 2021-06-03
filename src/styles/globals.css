@@ -6,3 +6,21 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+  body {
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #BABABA;
+  }
+  ::-webkit-scrollbar {
+    width: 15px;
+    background: #BABABA;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #353B48;
+    
+  }
