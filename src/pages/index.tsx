@@ -33,7 +33,11 @@ export default function Home() {
         <p id="sec1"></p>
         <h1 className="titulo-section">LAMBDA PACK</h1>
         <p className="subtitulo-section">Seu projeto desenvolvido e funcionando com força total e sem preocupação!</p>
-
+        <div className="container-cards">
+          <div className="card">
+            
+          </div>
+        </div>
       </section>
 
       
@@ -52,6 +56,7 @@ export default function Home() {
          <video src="/bg-space.mp4" autoPlay loop muted/>
          <img src="/astronaut-footer.svg" alt="astronauta" className="logo-astronaut-footer"/>
          <img src="/lambda-footer.png" alt="logo-lambda" className="logo-lambda-footer"/>
+     
       </footer>
 
     </Container>

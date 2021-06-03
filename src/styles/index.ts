@@ -27,13 +27,24 @@ footer {
   position: absolute;
   right:0;
   top: -100px;
-  width: 300px;
+  width: 350px;
   pointer-events: none;
+  animation-name: astronaut;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
+/* 
+@keyframes astronaut {
+  0%   {right:-20px; top:-120px;}
+  50%  {right:-30px; top:-100px;}
+  100% {right:-20px; top:-120px;}
+} */
+
 
 .logo-lambda-footer {
   position: absolute;
-  width: 70px;
+  height: 75px;
+  width: 80px;
 }
 
 video {
@@ -59,11 +70,11 @@ video {
 
 section {
   padding-top: 5vh;
-  height: 100vh;
+  height: 105vh;
 }
 
 section:nth-child(odd) {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 section:nth-child(even) {
@@ -84,5 +95,25 @@ section:nth-child(even) {
   width: 100%;
   text-align: center;
 }
+
+.container-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+  height: 50vh;
+}
+
+.card {
+  width: 30vw;
+  height: 30vh;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 2px 15px 5px rgba(0,0,0,0.47); 
+  box-shadow: 0px 2px 15px 5px rgba(0,0,0,0.47);
+  margin-bottom: 5vh;
+}
+
 
 `;
