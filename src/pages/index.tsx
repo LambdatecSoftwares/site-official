@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import {Container} from '../styles/index'
 import LogoGlitch from '../components/LogoGlitch'
-
+import Typical from "react-typical"
+import CustomButton from '../components/CustomButton'
 
 export default function Home() {
   return (
@@ -16,6 +17,13 @@ export default function Home() {
       <header>
         <video src="/bg-space.mp4" autoPlay loop muted/>
         <LogoGlitch />
+        <Typical
+        steps={["BEYOND", 1000, " WAY BEYOND YOUR MIND...", 5000]}
+        loop={Infinity}
+        wrapper="h1"
+        className="titulo-header"
+      />
+      <CustomButton />
       </header>
 
       <main>

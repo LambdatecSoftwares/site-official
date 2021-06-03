@@ -22,6 +22,17 @@ video {
     object-fit: fill;
   }
 
+  .titulo-header {
+    position: absolute;
+    color: white;
+    bottom: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 15px;
+  }
+
+
 main {
   background-color: #fff;
   height: 100vh;

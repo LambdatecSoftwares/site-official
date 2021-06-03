@@ -15,7 +15,7 @@ const LogoGlitch = () => {
 
   return(
       <Container>
-          <video src="/glitch-logo.mp4" autoPlay loop muted/>
+          <img src="/glitch-logo.gif" alt="logo-glitch"/>
       </Container>
   );
 }
