@@ -12,6 +12,29 @@ header {
   position: relative;
 }
 
+.container-icones-rede-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  padding: 20px;
+}
+
+.icone-redes-sociais {
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.icone-redes-sociais:hover {
+  transition: .3s ease-in-out;
+  color: #BABABA;
+}
+
 footer {
   display: flex;
   flex-direction: column;

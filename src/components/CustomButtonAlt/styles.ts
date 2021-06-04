@@ -28,6 +28,8 @@ export const Container = styled.div`
   button:hover {
     transition: .3s ease-in-out;
     background-color: #350647;
+    border: 1px solid #350647;
+    transform: scale(1.2);
   }
 
   .container-button-contato {

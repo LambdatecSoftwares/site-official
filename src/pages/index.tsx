@@ -10,6 +10,10 @@ import {ImGoogle} from 'react-icons/im'
 import {VscScreenFull} from 'react-icons/vsc'
 import { IoIosArrowDown } from 'react-icons/io'
 import { IoIosRocket } from 'react-icons/io'
+import {GoMarkGithub} from 'react-icons/go'
+import {FaLinkedinIn} from 'react-icons/fa'
+import {FaFacebookF} from 'react-icons/fa'
+import {ImWhatsapp} from 'react-icons/im'
 
 export default function Index() {
   return (
@@ -50,12 +54,27 @@ export default function Index() {
         loop={Infinity}
         wrapper="h3"
         className="titulo-header"
-      />
+        />
         <CustomButton 
         href="#sec1"
         icone= {<IoIosArrowDown />}
         />
-        </header>
+        <div className="container-icones-rede-social">
+          <a href="https://github.com/LambdatecSoftwares" target="_blank">
+            <GoMarkGithub className="icone-redes-sociais" title="Nosso repositório de projetos no GitHub"/>
+          </a>
+          <a href="#">
+            <FaLinkedinIn className="icone-redes-sociais" title="Confira nosso perfil no LinkedIn"/>
+          </a>
+          <a href="https://www.facebook.com/LambdaTecSorocaba" target="_blank">
+            <FaFacebookF className="icone-redes-sociais" title="Curta nossa página no Facebook"/>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=5515988309658&text=Ol%C3%A1!%20Estou%20vindo%20do%20site%20da%20Lambda%20e%20gostaria%20de%20ter%20mais%20informa%C3%A7%C3%B5es%20e%20detalhes%20sobre%20os%20projetos." target="_blank">
+            <ImWhatsapp className="icone-redes-sociais" title="Fale com a gente no WhatsApp"/>
+          </a>
+        </div>
+
+      </header>
 
       <section>
        
@@ -215,7 +234,7 @@ export default function Index() {
         <p className="subtitulo-card-contato">Nossa equipe entrará em contato por email ou telefone para coletar mais informações.</p>
       
         <CustomButtonAlt
-        href="#" 
+        href="https://api.whatsapp.com/send?phone=5515988309658&text=Ol%C3%A1!%20Estou%20vindo%20do%20site%20da%20Lambda%20e%20gostaria%20de%20ter%20mais%20informa%C3%A7%C3%B5es%20e%20detalhes%20sobre%20os%20projetos." 
         text="Clique aqui"
         icone= {<IoIosRocket className="icone-button" />}    
         />
