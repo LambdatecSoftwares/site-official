@@ -123,9 +123,9 @@ section:nth-child(even) {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30vw;
+  width: 40vw;
   height: 30vh;
-  margin: 1vw;
+  margin: 2.5vw;
   box-sizing: border-box;
 }
 
@@ -140,10 +140,12 @@ section:nth-child(even) {
 }
 
 .card-tec-icon {
-  font-size: 500PX;
+  font-size: 150px;
+  margin-right: 1vw;
 }
 
 .container-text-tec {
+  width: 90%;
   box-sizing: border-box;
 }
 
