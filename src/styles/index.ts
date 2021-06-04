@@ -95,7 +95,15 @@ section:nth-child(even) {
   justify-content: center;
   width: 80%;
   margin-left: 10%;
-  
+}
+
+.container-cards-tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  margin-left: 5vw;
 }
 
 .card {
@@ -108,6 +116,34 @@ section:nth-child(even) {
   border: 1px solid #BABABA;
   background-color: #ffffff;
   margin-bottom: 5vh;
+  box-sizing: border-box;
+}
+
+.card-tec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  height: 30vh;
+  margin: 1vw;
+  box-sizing: border-box;
+}
+
+.titulo-card-tec {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  letter-spacing: 15px;
+}
+
+.subtitulo-card-tec {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card-tec-icon {
+  font-size: 500PX;
+}
+
+.container-text-tec {
   box-sizing: border-box;
 }
 

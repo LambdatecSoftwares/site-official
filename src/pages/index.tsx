@@ -3,6 +3,11 @@ import {Container} from '../styles/index'
 import LogoGlitch from '../components/LogoGlitch'
 import Typical from "react-typical"
 import CustomButton from '../components/CustomButton'
+import {GrReactjs} from 'react-icons/gr'
+import {ImEye} from 'react-icons/im'
+import {ImGoogle} from 'react-icons/im'
+import {VscScreenFull} from 'react-icons/vsc'
+
 
 export default function Index() {
   return (
@@ -102,6 +107,54 @@ export default function Index() {
       <section>
       <h1 className="titulo-section">THE POWER OF MIND</h1>
         <p className="subtitulo-section">Trabalhamos com as mais atuais ferramentas e tecnologias do mercado, tais como:</p>
+      
+        <div className="container-cards-tecnologias">
+          
+          <div className="card-tec">
+          <GrReactjs className="card-tec-icon"/>
+          <div className="container-text-tec">
+          <h4 className="titulo-card-tec">REACT</h4>
+              <p className="subtitulo-card-tec">Todos os nossos projetos são desenvolvidos ReactJS e/ou ReactNative, 
+                o que proporciona maior agilidade no processamento e aplicações bem 
+                organizadas e escaláveis, ou seja, de fácil manutenção, mesmo que cresça 
+                em complexidade e tamanho.</p>
+          </div>
+          </div>
+          
+          <div className="card-tec">
+          <ImEye className="card-tec-icon"/>
+          <div className="container-text-tec">
+          <h4 className="titulo-card-tec">ID VISUAL</h4>
+              <p className="subtitulo-card-tec">A equipe de designers da LambdaTec irão analisar sua marca,
+               seu nicho de mercado e a personalidade de seu público alvo, para que finalmente possam elaborar
+                sua identidade visual, paleta de cores mais adequadas, etc...</p>
+            </div>
+          </div>
+          
+          <div className="card-tec">
+          <ImGoogle className="card-tec-icon"/>
+          <div className="container-text-tec">
+          <h4 className="titulo-card-tec">SEO</h4>
+              <p className="subtitulo-card-tec">SEO é a sigla para Search Engine Optimization, que significa 
+              otimização para mecanismos de busca, ou otimização de sites. Nós iremos usar os robôs de pesquisa
+              do Google e outros motores de busca para te dar vantagem e sua empresa irá aparecer nas primeiras 
+              páginas das pesquisas.</p>
+            </div>
+          </div>
+          
+          <div className="card-tec">
+          <VscScreenFull className="card-tec-icon"/>
+          <div className="container-text-tec">
+          <h4 className="titulo-card-tec">RESPONSIVE</h4>
+              <p className="subtitulo-card-tec">Um site responsivo é aquele cuja disposição dos elementos e o 
+              conteúdo se adaptam de acordo com o tamanho da tela do usuário. O processo de criação de sistemas 
+              é configurado para que sua exibição seja otimizada em qualquer tela, desde smartphones até grandes 
+              monitores.</p>
+            </div>
+          </div>
+
+        </div>
+     
       </section>
 
       
