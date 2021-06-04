@@ -29,17 +29,7 @@ footer {
   top: -100px;
   width: 350px;
   pointer-events: none;
-  animation-name: astronaut;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
 }
-/* 
-@keyframes astronaut {
-  0%   {right:-20px; top:-120px;}
-  50%  {right:-30px; top:-100px;}
-  100% {right:-20px; top:-120px;}
-} */
-
 
 .logo-lambda-footer {
   position: absolute;
@@ -70,7 +60,7 @@ video {
 
 section {
   padding-top: 5vh;
-  height: 105vh;
+  padding-bottom: 5vh;
 }
 
 section:nth-child(odd) {
@@ -84,6 +74,7 @@ section:nth-child(even) {
 .titulo-section {
   font-weight: 500;
   font-size: 4rem;
+  font-family: 'Open Sans', sans-serif;
   width: 100%;
   text-align: center;
 }
@@ -91,9 +82,10 @@ section:nth-child(even) {
 .subtitulo-section {
   font-weight: 300;
   font-size: 1.2rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   width: 100%;
   text-align: center;
+  margin-bottom: 5vh;
 }
 
 .container-cards {
@@ -103,17 +95,42 @@ section:nth-child(even) {
   justify-content: center;
   width: 80%;
   margin-left: 10%;
-  height: 50vh;
+  
 }
 
 .card {
-  width: 30vw;
-  height: 30vh;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 2px 15px 5px rgba(0,0,0,0.47); 
-  box-shadow: 0px 2px 15px 5px rgba(0,0,0,0.47);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 410px;
+  height: 200px;
+  border-radius: 8px;
+  border: 1px solid #BABABA;
+  background-color: #ffffff;
   margin-bottom: 5vh;
+  box-sizing: border-box;
 }
 
+.numero-card {
+  font-family: 'MeticulaOutline', sans-serif;
+  font-size: 150px;
+}
+
+.separador-card {
+  background-color: #BABABA;
+  color: #BABABA;
+  width: 1px;
+  height: 160px;
+}
+
+.conteudo-texto-card {
+  height: 90%;
+  width: 50%;
+}
+
+.observacao-section {
+  text-align: center;
+  font-style: italic;
+}
 
 `;

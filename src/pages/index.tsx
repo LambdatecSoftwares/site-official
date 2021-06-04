@@ -4,16 +4,27 @@ import LogoGlitch from '../components/LogoGlitch'
 import Typical from "react-typical"
 import CustomButton from '../components/CustomButton'
 
-export default function Home() {
+export default function Index() {
   return (
     <Container>
 
       <Head>
         <title>Way beyond your mind</title>
         <meta name="description" content="Sistemas, aplicativos e soluções empresariais na área de tecnologia" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
-        rel="stylesheet" />
+        <link 
+        rel="preconnect" 
+        href="https://fonts.gstatic.com"
+        />
+        <link 
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" 
+        rel="stylesheet"
+        />
+         <link
+            rel="preload"
+            href="/fonts/meticula-outline.ttf"
+            as="font"
+            crossOrigin=""
+          />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
@@ -30,14 +41,61 @@ export default function Home() {
       </header>
 
       <section>
+       
         <p id="sec1"></p>
         <h1 className="titulo-section">LAMBDA PACK</h1>
         <p className="subtitulo-section">Seu projeto desenvolvido e funcionando com força total e sem preocupação!</p>
+        
         <div className="container-cards">
+          
           <div className="card">
-            
+            <h1 className="numero-card">1</h1>
+            <hr className="separador-card" />
+            <div className="conteudo-texto-card">
+              <h4>LEVANTAMENTO DE REQUISITOS</h4>
+              <p>Nossa equipe de especialistas analisa 
+                seu projeto e encontra pontos de melhoria 
+                para aumento de performance e redução de custos</p>
+            </div>
           </div>
+          
+          <div className="card">
+            <h1 className="numero-card">2</h1>
+            <hr className="separador-card" />
+            <div className="conteudo-texto-card">
+            <h4>PLATAFORMAS E TECNOLOGIAS</h4>
+              <p>As plataformas e as tecnologias serão escolhidas 
+                para atender exatamente suas demandas.</p>
+            </div>
+          </div>
+
+          <div className="card">
+            <h1 className="numero-card">3</h1>
+            <hr className="separador-card" />
+            <div className="conteudo-texto-card">
+            <h4>IDENTIDADE VISUAL</h4>
+              <p>Nossos profissionais irão analisar sua
+                 marca para que tenha um engajamento maior no mercado digital.</p>
+            </div>
+          </div>
+          
+          <div className="card">
+            <h1 className="numero-card">4</h1>
+            <hr className="separador-card" />
+          <div className="conteudo-texto-card">
+          <h4>VERSÃO DE TESTES</h4>
+              <p>Nossa equipe irá realizar todos os tipos de testes
+                 necessários para que haja NENHUMA chance de erro 
+                 na implantação do seu projeto.</p>
+            </div>
+          </div>
+
+        <p className="observacao-section">O processo completo de implementação do Lambda Pack tem duração 
+          prevista de 45 dias, mas pode variar de acordo com a complexidade 
+          do projeto ou estrutura necessária. Em casos de urgência, a LambdaTec 
+          disponibilizará uma equipe de elite para lançar seu projeto no menor prazo possível.</p>
         </div>
+      
       </section>
 
       
