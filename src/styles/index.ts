@@ -71,6 +71,14 @@ section:nth-child(even) {
   background-color: #F2F2F2;
 }
 
+.sec-contato {
+  height: 50vh;
+  background-image: linear-gradient(#A729D8, #8A05BE);
+  -webkit-box-shadow: 2px 2px 5px 8px rgba(0,0,0,0.2);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 2px 2px 5px 8px rgba(0,0,0,0.2);  /* Firefox 3.5 - 3.6 */
+  box-shadow: 2px 2px 5px 8px rgba(0,0,0,0.2);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
 .titulo-section {
   font-weight: 500;
   font-size: 4rem;
@@ -136,6 +144,24 @@ section:nth-child(even) {
   font-family: 'Open Sans', sans-serif;
 }
 
+.titulo-card-contato {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.subtitulo-card-contato {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+}
+
 .card-tec {
   display: flex;
   align-items: center;
@@ -199,7 +225,7 @@ section:nth-child(even) {
 .observacao-section-footer {
   text-align: center;
   font-style: italic;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 
 `;

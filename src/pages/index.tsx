@@ -18,6 +18,13 @@ export default function Index() {
         <meta name="description" content="Sistemas, aplicativos e soluções empresariais na área de tecnologia" />
         <link 
         rel="preconnect" 
+        href="https://fonts.gstatic.com" 
+        />
+        <link 
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        </link>
+        <link 
+        rel="preconnect" 
         href="https://fonts.gstatic.com"
         />
         <link 
@@ -195,6 +202,13 @@ export default function Index() {
           através de chamados.
           </p>
         </div>
+      </section>
+
+      <section className="sec-contato">
+      <div className="container-cards">
+        <h4 className="titulo-card-contato">FAÇA UM ORÇAMENTO E CONTRATE A LAMBDA</h4>
+        <p className="subtitulo-card-contato">Nossa equipe entrará em contato por email ou telefone para coletar mais informações.</p>
+      </div>
       </section>
 
       <footer>
