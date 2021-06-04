@@ -53,7 +53,7 @@ export default function Index() {
         
         <div className="container-cards">
           
-          <div className="card">
+          <div className="card-pack">
             <h1 className="numero-card">1</h1>
             <hr className="separador-card" />
             <div className="conteudo-texto-card">
@@ -64,7 +64,7 @@ export default function Index() {
             </div>
           </div>
           
-          <div className="card">
+          <div className="card-pack">
             <h1 className="numero-card">2</h1>
             <hr className="separador-card" />
             <div className="conteudo-texto-card">
@@ -74,7 +74,7 @@ export default function Index() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card-pack">
             <h1 className="numero-card">3</h1>
             <hr className="separador-card" />
             <div className="conteudo-texto-card">
@@ -84,7 +84,7 @@ export default function Index() {
             </div>
           </div>
           
-          <div className="card">
+          <div className="card-pack">
             <h1 className="numero-card">4</h1>
             <hr className="separador-card" />
           <div className="conteudo-texto-card">
@@ -161,6 +161,40 @@ export default function Index() {
       <section>
       <h1 className="titulo-section">THE MIND CONTROL</h1>
         <p className="subtitulo-section">Suporte, monitoramento e consultoria LambdaTec para você ir mais longe com performance e segurança.</p>
+       
+        <div className="container-cards">
+        
+        <div className="card-sup">
+            <h4 className="titulo-card-sup">SUPORTE</h4>
+            <hr className="separador-card-v2" />
+            <p className="subtitulo-card-sup">Conte com nossa equipe de especialistas sempre que precisar atráves de canais de atendimento rápidos 
+              e diretos como Telegram, Messenger ou WhatsApp. Você sempre terá contato com quem realmente entende do 
+              assunto, sem chatbots ou mensagens automáticas.</p>
+        </div>
+
+        <div className="card-sup">
+            <h4 className="titulo-card-sup">MONITORAMENTO</h4>
+            <hr className="separador-card-v2" />
+            <p className="subtitulo-card-sup">Sua infra-estrutura é monitorada sem intervalos 24 horas por dia, 7 dias 
+            por semana, por profissionais especializados e prontos para tomar ações necessárias em casos de pico de 
+            acessos, problemas de hardware ou software ou ataques. O monitoramento acontece de maneria pró-ativa, desse
+            modo nossa equipe estará trabalhando na resolução de problemas mesmo antes do report.</p>
+        </div>
+
+        <div className="card-sup">
+            <h4 className="titulo-card-sup">CONSULTORIA</h4>
+            <hr className="separador-card-v2" />
+            <p className="subtitulo-card-sup">Nossa equipe trabalha sempre de maneira pró-ativa procurando e sugerindo 
+            novas soluções que otimizem os recursos e os resultados do seu projeto. Conte com a consultoria da LambdaTec 
+            para fortaceler o presente e discutir o futuro da sua solução.</p>
+        </div>
+
+          <p className="observacao-section-footer">O gerenciamento da estrutra é realizado pela equipe da LambdaTec e, caso 
+          solicitado, por profissionais de TI especializados dentro da empresa do cliente, para que o ambiente seja 
+          mantido estável e seguro. As configurações e acessos nos servidores são otimizados para que sejam feitos 
+          através de chamados.
+          </p>
+        </div>
       </section>
 
       <footer>

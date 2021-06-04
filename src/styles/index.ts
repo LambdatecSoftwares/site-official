@@ -106,7 +106,7 @@ section:nth-child(even) {
   margin-left: 5vw;
 }
 
-.card {
+.card-pack {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -117,6 +117,23 @@ section:nth-child(even) {
   background-color: #ffffff;
   margin-bottom: 5vh;
   box-sizing: border-box;
+}
+
+.card-sup {
+  width: 80%;
+  padding: 2vw;
+  border-radius: 8px;
+  border: 1px solid #BABABA;
+  background-color: #ffffff;
+  margin-bottom: 5vh;
+  box-sizing: border-box;
+}
+
+.titulo-card-sup {
+  font-size: 30px;
+  letter-spacing: 30px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .card-tec {
@@ -161,6 +178,14 @@ section:nth-child(even) {
   height: 160px;
 }
 
+.separador-card-v2 {
+  background-color: #BABABA;
+  color: #BABABA;
+  height: 1px;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
 .conteudo-texto-card {
   height: 90%;
   width: 50%;
@@ -169,6 +194,12 @@ section:nth-child(even) {
 .observacao-section {
   text-align: center;
   font-style: italic;
+}
+
+.observacao-section-footer {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 10vh;
 }
 
 `;
