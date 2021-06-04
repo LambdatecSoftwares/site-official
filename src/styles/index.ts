@@ -156,6 +156,7 @@ section:nth-child(even) {
 
 .subtitulo-card-contato {
   width: 100%;
+  margin-bottom: 10vh;
   font-size: 20px;
   font-weight: 300;
   text-align: center;
@@ -175,6 +176,7 @@ section:nth-child(even) {
 .titulo-card-tec {
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
+  font-weight: 400;
   letter-spacing: 15px;
 }
 

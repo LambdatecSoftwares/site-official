@@ -3,11 +3,13 @@ import {Container} from '../styles/index'
 import LogoGlitch from '../components/LogoGlitch'
 import Typical from "react-typical"
 import CustomButton from '../components/CustomButton'
+import CustomButtonAlt from '../components/CustomButtonAlt'
 import {GrReactjs} from 'react-icons/gr'
 import {ImEye} from 'react-icons/im'
 import {ImGoogle} from 'react-icons/im'
 import {VscScreenFull} from 'react-icons/vsc'
-
+import { IoIosArrowDown } from 'react-icons/io'
+import { IoIosRocket } from 'react-icons/io'
 
 export default function Index() {
   return (
@@ -49,8 +51,11 @@ export default function Index() {
         wrapper="h3"
         className="titulo-header"
       />
-        <CustomButton href="#sec1"/>
-      </header>
+        <CustomButton 
+        href="#sec1"
+        icone= {<IoIosArrowDown />}
+        />
+        </header>
 
       <section>
        
@@ -208,6 +213,13 @@ export default function Index() {
       <div className="container-cards">
         <h4 className="titulo-card-contato">FAÇA UM ORÇAMENTO E CONTRATE A LAMBDA</h4>
         <p className="subtitulo-card-contato">Nossa equipe entrará em contato por email ou telefone para coletar mais informações.</p>
+      
+        <CustomButtonAlt
+        href="#" 
+        text="Clique aqui"
+        icone= {<IoIosRocket className="icone-button" />}    
+        />
+
       </div>
       </section>
 
