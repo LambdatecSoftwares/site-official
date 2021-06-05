@@ -97,9 +97,9 @@ section:nth-child(even) {
 .sec-contato {
   height: 50vh;
   background-image: linear-gradient(#A729D8, #8A05BE);
-  -webkit-box-shadow: 2px 2px 5px 8px rgba(0,0,0,0.2);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 2px 2px 5px 8px rgba(0,0,0,0.2);  /* Firefox 3.5 - 3.6 */
-  box-shadow: 2px 2px 5px 8px rgba(0,0,0,0.2);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  -webkit-box-shadow: 8px -2px 10px 8px rgba(0,0,0,0.3);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 8px -2px 10px 8px rgba(0,0,0,0.3);  /* Firefox 3.5 - 3.6 */
+  box-shadow: 8px -2px 10px 8px rgba(0,0,0,0.3);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
 .titulo-section {
