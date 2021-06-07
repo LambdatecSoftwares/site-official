@@ -7,7 +7,7 @@ import CustomButtonAlt from '../components/CustomButtonAlt'
 import {GrReactjs} from 'react-icons/gr'
 import {ImEye} from 'react-icons/im'
 import {ImGoogle} from 'react-icons/im'
-import {VscScreenFull} from 'react-icons/vsc'
+import {AiOutlineFullscreen} from 'react-icons/ai'
 import { IoIosArrowDown } from 'react-icons/io'
 import { IoIosRocket } from 'react-icons/io'
 import {GoMarkGithub} from 'react-icons/go'
@@ -170,17 +170,6 @@ export default function Index() {
               otimização para mecanismos de busca, ou otimização de sites. Nós iremos usar os robôs de pesquisa
               do Google e outros motores de busca para te dar vantagem e sua empresa irá aparecer nas primeiras 
               páginas das pesquisas.</p>
-            </div>
-          </div>
-          
-          <div className="card-tec">
-          <VscScreenFull className="card-tec-icon"/>
-          <div className="container-text-tec">
-          <h4 className="titulo-card-tec">RESPONSIVE</h4>
-              <p className="subtitulo-card-tec">Um site responsivo é aquele cuja disposição dos elementos e o 
-              conteúdo se adaptam de acordo com o tamanho da tela do usuário. O processo de criação de sistemas 
-              é configurado para que sua exibição seja otimizada em qualquer tela, desde smartphones até grandes 
-              monitores.</p>
             </div>
           </div>
 

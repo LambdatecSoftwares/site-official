@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 
+@media (min-width: 451px) and (max-width: 100000px) {
 
 header {
   display: flex;
@@ -251,6 +252,253 @@ section:nth-child(even) {
   text-align: center;
   font-style: italic;
   margin-bottom: 5vh;
+}
+}
+
+@media (min-width: 0px) and (max-width: 450px) {
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 105vh;
+  width: 100%;
+  position: relative;
+}
+
+.container-icones-rede-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 100%;
+}
+
+.icone-redes-sociais {
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.icone-redes-sociais:hover {
+  transition: .3s ease-in-out;
+  color: #BABABA;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  pointer-events: none;
+}
+
+.logo-astronaut-footer {
+  position: absolute;
+  right:0;
+  top: -60px;
+  width: 350px;
+  pointer-events: none;
+}
+
+.logo-lambda-footer {
+  position: absolute;
+  height: 75px;
+  width: 80px;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-position: fixed;
+    pointer-events: none;
+    background-repeat: repeat;
+    object-fit: fill;
+  }
+
+  .titulo-header {
+    position: absolute;
+    color: white;
+    left: 0;
+    bottom: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+
+section {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width: 100%;
+}
+
+section:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+section:nth-child(even) {
+  background-color: #F2F2F2;
+}
+
+.sec-contato {
+  height: 70vh;
+  background-image: linear-gradient(#A729D8, #8A05BE);
+}
+
+.titulo-section {
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+.subtitulo-section {
+  font-weight: 300;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.card-pack {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #BABABA;
+  background-color: #ffffff;
+  margin-bottom: 5vh;
+  box-sizing: border-box;
+}
+.container-cards-tecnologias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+}
+
+
+.card-sup {
+  width: 90%;
+  padding: 2vw;
+  border-radius: 8px;
+  border: 1px solid #BABABA;
+  background-color: #ffffff;
+  margin-bottom: 5vh;
+  box-sizing: border-box;
+}
+
+.titulo-card-sup {
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.titulo-card-contato {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.subtitulo-card-contato {
+  width: 100%;
+  margin-bottom: 5vh;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card-tec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 5vh;
+}
+
+.titulo-card-tec {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+.subtitulo-card-tec {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card-tec-icon {
+  font-size: 150px;
+}
+
+.container-text-tec {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.numero-card {
+  font-family: 'MeticulaOutline', sans-serif;
+  font-size: 150px;
+}
+
+.separador-card {
+  background-color: #BABABA;
+  color: #BABABA;
+  width: 1px;
+  height: 160px;
+}
+
+.separador-card-v2 {
+  background-color: #BABABA;
+  color: #BABABA;
+  height: 1px;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.conteudo-texto-card {
+  width: 50%;
+}
+
+.observacao-section {
+  text-align: center;
+  font-style: italic;
+}
+
+.observacao-section-footer {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 5vh;
+}
 }
 
 `;
