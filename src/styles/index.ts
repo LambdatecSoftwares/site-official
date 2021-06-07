@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 
-@media (min-width: 451px) and (max-width: 100000px) {
+@media (min-width: 1025px) and (max-width: 100000px) {
 
 header {
   display: flex;
@@ -255,7 +255,7 @@ section:nth-child(even) {
 }
 }
 
-@media (min-width: 0px) and (max-width: 450px) {
+@media (min-width: 0px) and (max-width: 1024px) {
 
 header {
   display: flex;
@@ -293,18 +293,14 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 60vh;
+  height: 30vh;
   width: 100%;
   position: relative;
   pointer-events: none;
 }
 
 .logo-astronaut-footer {
-  position: absolute;
-  right:0;
-  top: -60px;
-  width: 350px;
-  pointer-events: none;
+ display: none;
 }
 
 .logo-lambda-footer {
@@ -349,7 +345,6 @@ section:nth-child(even) {
 }
 
 .sec-contato {
-  height: 70vh;
   background-image: linear-gradient(#A729D8, #8A05BE);
 }
 

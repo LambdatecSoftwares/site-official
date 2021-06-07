@@ -172,6 +172,17 @@ export default function Index() {
               páginas das pesquisas.</p>
             </div>
           </div>
+          
+          <div className="card-tec">
+          <AiOutlineFullscreen className="card-tec-icon"/>
+          <div className="container-text-tec">
+          <h4 className="titulo-card-tec">RESPONSIVE</h4>
+              <p className="subtitulo-card-tec">Um site responsivo é aquele cuja disposição dos elementos e o 
+              conteúdo se adaptam de acordo com o tamanho da tela do usuário. O processo de criação de sistemas 
+              é configurado para que sua exibição seja otimizada em qualquer tela, desde smartphones até grandes 
+              monitores.</p>
+            </div>
+          </div>
 
         </div>
      
